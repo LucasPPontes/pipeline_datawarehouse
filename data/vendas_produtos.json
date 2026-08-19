@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nome": "Licença ERP Anual",
+    "categoria": "Software",
+    "preco_unitario": 24000.00,
+    "estoque_disponivel": 999,
+    "ativo": true
+  },
+  {
+    "id": 2,
+    "nome": "Módulo Fiscal Adicional",
+    "categoria": "Software",
+    "preco_unitario": 3500.00,
+    "estoque_disponivel": 999,
+    "ativo": true
+  },
+  {
+    "id": 3,
+    "nome": "Consultoria de Implementação (Hora)",
+    "categoria": "Serviços",
+    "preco_unitario": 250.00,
+    "estoque_disponivel": 500,
+    "ativo": true
+  },
+  {
+    "id": 4,
+    "nome": "Suporte Técnico Premium (Mês)",
+    "categoria": "Serviços",
+    "preco_unitario": 1250.00,
+    "estoque_disponivel": 999,
+    "ativo": true
+  },
+  {
+    "id": 5,
+    "nome": "Módulo de PDV e Estoque",
+    "categoria": "Software",
+    "preco_unitario": 3800.00,
+    "estoque_disponivel": 999,
+    "ativo": true
+  },
+  {
+    "id": 6,
+    "nome": "Leitor de Código de Barras Laser",
+    "categoria": "Hardware",
+    "preco_unitario": 450.00,
+    "estoque_disponivel": 45,
+    "ativo": true
+  },
+  {
+    "id": 7,
+    "nome": "Impressora Térmica Não Fiscal",
+    "categoria": "Hardware",
+    "preco_unitario": 890.00,
+    "estoque_disponivel": 20,
+    "ativo": true
+  },
+  {
+    "id": 8,
+    "nome": "Treinamento Operacional (Turma)",
+    "categoria": "Treinamento",
+    "preco_unitario": 2000.00,
+    "estoque_disponivel": 50,
+    "ativo": true
+  },
+  {
+    "id": 9,
+    "nome": "Migração de Banco de Dados",
+    "categoria": "Serviços",
+    "preco_unitario": 7500.00,
+    "estoque_disponivel": 100,
+    "ativo": true
+  },
+  {
+    "id": 10,
+    "nome": "Integração via API Customizada",
+    "categoria": "Serviços",
+    "preco_unitario": 5000.00,
+    "estoque_disponivel": 100,
+    "ativo": true
+  }
+]

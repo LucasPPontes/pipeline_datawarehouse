@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "cliente_id": 1,
+    "cliente_nome": "Tech Solutions Ltda",
+    "assunto": "Dúvida sobre integração de API de Notas Fiscais",
+    "descricao": "Cliente necessita de auxílio para conectar o endpoint de NFe ao seu sistema ERP interno.",
+    "prioridade": "alta",
+    "status": "em_andamento",
+    "data_criacao": "2024-02-01T10:30:00"
+  },
+  {
+    "id": 2,
+    "cliente_id": 2,
+    "cliente_nome": "Comércio Silva & Cia",
+    "assunto": "Erro no relatório financeiro em PDF",
+    "descricao": "Ao exportar o relatório do mês de janeiro, a página 2 apresenta desconfiguração nos valores.",
+    "prioridade": "media",
+    "status": "aberto",
+    "data_criacao": "2024-02-03T14:15:00"
+  },
+  {
+    "id": 3,
+    "cliente_id": 3,
+    "cliente_nome": "Indústria Metalúrgica Ramos",
+    "assunto": "Redefinição de senha de acesso master",
+    "descricao": "Solicitação de reset da senha da conta de administrador após troca de gestor.",
+    "prioridade": "baixa",
+    "status": "resolvido",
+    "data_criacao": "2024-01-28T09:00:00"
+  },
+  {
+    "id": 4,
+    "cliente_id": 5,
+    "cliente_nome": "Logística & Transportes Veloz",
+    "assunto": "Instabilidade na emissão de CT-e",
+    "descricao": "Lentidão ao validar conhecimentos de transporte eletrônico no ambiente SEFAZ.",
+    "prioridade": "critica",
+    "status": "resolvido",
+    "data_criacao": "2024-02-10T16:45:00"
+  },
+  {
+    "id": 5,
+    "cliente_id": 6,
+    "cliente_nome": "Farmácia Vida Saudável",
+    "assunto": "Configuração de Impressora Térmica",
+    "descricao": "A impressora Elgin i9 não está cortando o papel automaticamente após a venda.",
+    "prioridade": "media",
+    "status": "resolvido",
+    "data_criacao": "2024-02-12T11:20:00"
+  },
+  {
+    "id": 6,
+    "cliente_id": 8,
+    "cliente_nome": "Construtora Horizonte",
+    "assunto": "Cadastro de Múltiplos Centros de Custo",
+    "descricao": "Dúvida sobre a criação de rateio por obra no módulo financeiro.",
+    "prioridade": "media",
+    "status": "em_andamento",
+    "data_criacao": "2024-02-18T08:30:00"
+  },
+  {
+    "id": 7,
+    "cliente_id": 7,
+    "cliente_nome": "Escola Futuro Brilhante",
+    "assunto": "Importação de Matrículas em Lote",
+    "descricao": "Solicitação de script de importação de 400 alunos via CSV.",
+    "prioridade": "alta",
+    "status": "aberto",
+    "data_criacao": "2024-02-22T15:00:00"
+  },
+  {
+    "id": 8,
+    "cliente_id": 4,
+    "cliente_nome": "Padaria e Confeitaria Central",
+    "assunto": "Treinamento de caixa de frente de loja",
+    "descricao": "Agendamento de 1h de tira-dúvidas com os operados de PDV.",
+    "prioridade": "baixa",
+    "status": "resolvido",
+    "data_criacao": "2024-02-25T13:10:00"
+  },
+  {
+    "id": 9,
+    "cliente_id": 1,
+    "cliente_nome": "Tech Solutions Ltda",
+    "assunto": "Solicitação de Webhooks para Estoque",
+    "descricao": "Notificação em tempo real via HTTP POST sempre que o estoque atingir nível crítico.",
+    "prioridade": "media",
+    "status": "aberto",
+    "data_criacao": "2024-03-01T10:00:00"
+  },
+  {
+    "id": 10,
+    "cliente_id": 5,
+    "cliente_nome": "Logística & Transportes Veloz",
+    "assunto": "Backup de segurança adicional",
+    "descricao": "Solicitação de cópia extra de segurança do banco de dados antes da virada do mês.",
+    "prioridade": "alta",
+    "status": "resolvido",
+    "data_criacao": "2024-03-04T17:30:00"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "nome": "Administrador do Sistema",
+    "email": "admin@empresa-exemplo.com.br",
+    "senha_plana": "admin123",
+    "cargo": "Administrador Geral",
+    "role": "ADMIN",
+    "ativo": true
+  },
+  {
+    "id": 2,
+    "nome": "Vendedor Exemplo",
+    "email": "vendedor@empresa-exemplo.com.br",
+    "senha_plana": "vendas123",
+    "cargo": "Executivo de Vendas",
+    "role": "VENDAS",
+    "ativo": true
+  },
+  {
+    "id": 3,
+    "nome": "Analista Financeiro",
+    "email": "financeiro@empresa-exemplo.com.br",
+    "senha_plana": "fin123",
+    "cargo": "Analista Financeiro",
+    "role": "FINANCEIRO",
+    "ativo": true
+  },
+  {
+    "id": 4,
+    "nome": "Advogado Corporativo",
+    "email": "juridico@empresa-exemplo.com.br",
+    "senha_plana": "jur123",
+    "cargo": "Advogado Corporativo",
+    "role": "JURIDICO",
+    "ativo": true
+  },
+  {
+    "id": 5,
+    "nome": "Analista de RH",
+    "email": "rh@empresa-exemplo.com.br",
+    "senha_plana": "rh123",
+    "cargo": "Analista de Recursos Humanos",
+    "role": "RH",
+    "ativo": true
+  },
+  {
+    "id": 6,
+    "nome": "Agente de Suporte",
+    "email": "atendimento@empresa-exemplo.com.br",
+    "senha_plana": "atend123",
+    "cargo": "Agente de Suporte",
+    "role": "ATENDIMENTO",
+    "ativo": true
+  },
+  {
+    "id": 7,
+    "nome": "Analista de Infraestrutura",
+    "email": "infra@empresa-exemplo.com.br",
+    "senha_plana": "infra123",
+    "cargo": "Analista de TI & Infra",
+    "role": "INFRA",
+    "ativo": true
+  }
+]

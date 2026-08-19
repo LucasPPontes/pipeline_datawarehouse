@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "cliente_fornecedor": "Tech Solutions Ltda",
+    "numero_fatura": "FAT-2024-001",
+    "valor_total": 27500.00,
+    "data_emissao": "2024-01-10",
+    "data_vencimento": "2024-01-20",
+    "status": "paga"
+  },
+  {
+    "id": 2,
+    "cliente_fornecedor": "AWS Cloud Services",
+    "numero_fatura": "INV-AWS-88992",
+    "valor_total": 3200.00,
+    "data_emissao": "2024-01-15",
+    "data_vencimento": "2024-01-25",
+    "status": "paga"
+  },
+  {
+    "id": 3,
+    "cliente_fornecedor": "Comércio Silva & Cia",
+    "numero_fatura": "FAT-2024-002",
+    "valor_total": 8390.00,
+    "data_emissao": "2024-01-18",
+    "data_vencimento": "2024-02-10",
+    "status": "paga"
+  },
+  {
+    "id": 4,
+    "cliente_fornecedor": "Advocacia Costa & Associados",
+    "numero_fatura": "HON-2024-102",
+    "valor_total": 4500.00,
+    "data_emissao": "2024-02-01",
+    "data_vencimento": "2024-02-28",
+    "status": "pendente"
+  },
+  {
+    "id": 5,
+    "cliente_fornecedor": "Logística & Transportes Veloz",
+    "numero_fatura": "FAT-2024-003",
+    "valor_total": 31500.00,
+    "data_emissao": "2024-02-20",
+    "data_vencimento": "2024-03-05",
+    "status": "paga"
+  },
+  {
+    "id": 6,
+    "cliente_fornecedor": "Imobiliária São Paulo",
+    "numero_fatura": "REC-ALU-2024-03",
+    "valor_total": 9500.00,
+    "data_emissao": "2024-03-01",
+    "data_vencimento": "2024-03-10",
+    "status": "paga"
+  },
+  {
+    "id": 7,
+    "cliente_fornecedor": "Construtora Horizonte",
+    "numero_fatura": "FAT-2024-004",
+    "valor_total": 29000.00,
+    "data_emissao": "2024-03-12",
+    "data_vencimento": "2024-03-25",
+    "status": "paga"
+  },
+  {
+    "id": 8,
+    "cliente_fornecedor": "Google Brasil Internet Ltda",
+    "numero_fatura": "GADS-991823-BR",
+    "valor_total": 6200.00,
+    "data_emissao": "2024-03-15",
+    "data_vencimento": "2024-03-30",
+    "status": "paga"
+  },
+  {
+    "id": 9,
+    "cliente_fornecedor": "Receita Federal",
+    "numero_fatura": "DARF-SN-2024-03",
+    "valor_total": 11400.00,
+    "data_emissao": "2024-04-01",
+    "data_vencimento": "2024-04-20",
+    "status": "pendente"
+  },
+  {
+    "id": 10,
+    "cliente_fornecedor": "Indústria Metalúrgica Ramos",
+    "numero_fatura": "FAT-2024-005",
+    "valor_total": 1250.00,
+    "data_emissao": "2024-03-20",
+    "data_vencimento": "2024-04-05",
+    "status": "cancelada"
+  }
+]

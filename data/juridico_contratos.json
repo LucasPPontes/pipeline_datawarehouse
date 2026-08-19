@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "titulo": "Contrato de Prestação de Serviços - Tech Solutions",
+    "parte_envolvida": "Tech Solutions Ltda",
+    "tipo_contrato": "prestacao_servicos",
+    "valor_contrato": 27500.00,
+    "data_inicio": "2024-01-10",
+    "data_fim": "2025-01-09",
+    "status": "vigente"
+  },
+  {
+    "id": 2,
+    "titulo": "Acordo de Nível de Serviço (SLA) - AWS Host",
+    "parte_envolvida": "Amazon Web Services Inc",
+    "tipo_contrato": "fornecedor",
+    "valor_contrato": 38400.00,
+    "data_inicio": "2023-05-01",
+    "data_fim": "2026-05-01",
+    "status": "vigente"
+  },
+  {
+    "id": 3,
+    "titulo": "Contrato de Trabalho - Ana Clara Silva",
+    "parte_envolvida": "Ana Clara Silva",
+    "tipo_contrato": "trabalho",
+    "valor_contrato": 102000.00,
+    "data_inicio": "2023-01-15",
+    "data_fim": null,
+    "status": "vigente"
+  },
+  {
+    "id": 4,
+    "titulo": "Locação de Impressoras Corporativas",
+    "parte_envolvida": "PrintMaster Soluções",
+    "tipo_contrato": "fornecedor",
+    "valor_contrato": 6000.00,
+    "data_inicio": "2022-01-01",
+    "data_fim": "2023-12-31",
+    "status": "encerrado"
+  },
+  {
+    "id": 5,
+    "titulo": "Contrato de Parceria de Revenda - Alfa Partners",
+    "parte_envolvida": "Consultoria Alfa Partners",
+    "tipo_contrato": "parceria",
+    "valor_contrato": 50000.00,
+    "data_inicio": "2023-09-01",
+    "data_fim": "2025-08-31",
+    "status": "vigente"
+  },
+  {
+    "id": 6,
+    "titulo": "Locação Imóvel Sede Corporativa",
+    "parte_envolvida": "Imobiliária São Paulo",
+    "tipo_contrato": "locacao",
+    "valor_contrato": 114000.00,
+    "data_inicio": "2023-03-01",
+    "data_fim": "2026-02-28",
+    "status": "vigente"
+  },
+  {
+    "id": 7,
+    "titulo": "Contrato de Prestação de Serviços - Construtora Horizonte",
+    "parte_envolvida": "Construtora Horizonte",
+    "tipo_contrato": "prestacao_servicos",
+    "valor_contrato": 29000.00,
+    "data_inicio": "2024-03-12",
+    "data_fim": "2025-03-11",
+    "status": "vigente"
+  },
+  {
+    "id": 8,
+    "titulo": "NDA de Confidencialidade - Metalúrgica Ramos",
+    "parte_envolvida": "Indústria Metalúrgica Ramos",
+    "tipo_contrato": "confidencialidade",
+    "valor_contrato": 0.00,
+    "data_inicio": "2024-02-01",
+    "data_fim": "2027-02-01",
+    "status": "vigente"
+  },
+  {
+    "id": 9,
+    "titulo": "Contrato de Licenciamento de Software - Logística Veloz",
+    "parte_envolvida": "Logística & Transportes Veloz",
+    "tipo_contrato": "licenciamento",
+    "valor_contrato": 31500.00,
+    "data_inicio": "2024-02-20",
+    "data_fim": "2025-02-19",
+    "status": "vigente"
+  },
+  {
+    "id": 10,
+    "titulo": "Prestação de Serviços de Contabilidade Externa",
+    "parte_envolvida": "Exactus Contábil Ltda",
+    "tipo_contrato": "prestacao_servicos",
+    "valor_contrato": 24000.00,
+    "data_inicio": "2023-01-01",
+    "data_fim": "2024-12-31",
+    "status": "vigente"
+  }
+]

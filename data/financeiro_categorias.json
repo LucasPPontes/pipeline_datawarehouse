@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nome": "Venda de Software / Licenças",
+    "tipo": "receita",
+    "descricao": "Receitas obtidas através da comercialização de módulos ERP"
+  },
+  {
+    "id": 2,
+    "nome": "Prestação de Serviços de TI",
+    "tipo": "receita",
+    "descricao": "Horas de consultoria, treinamento e migração de dados"
+  },
+  {
+    "id": 3,
+    "nome": "Suporte Técnico Continuado",
+    "tipo": "receita",
+    "descricao": "Assinaturas mensais de suporte pré-pago"
+  },
+  {
+    "id": 4,
+    "nome": "Folha de Pagamento",
+    "tipo": "despesa",
+    "descricao": "Salários, encargos sociais e benefícios dos colaboradores"
+  },
+  {
+    "id": 5,
+    "nome": "Servidores & Cloud Storage",
+    "tipo": "despesa",
+    "descricao": "Custos de hospedagem AWS, GCP e servidores internos"
+  },
+  {
+    "id": 6,
+    "nome": "Aluguel & Infraestrutura Predial",
+    "tipo": "despesa",
+    "descricao": "Aluguel do escritório, condomínio e luz"
+  },
+  {
+    "id": 7,
+    "nome": "Serviços Jurídicos & Contabilidade",
+    "tipo": "despesa",
+    "descricao": "Honorários de advocacia e contabilidade externa"
+  },
+  {
+    "id": 8,
+    "nome": "Marketing & Publicidade",
+    "tipo": "despesa",
+    "descricao": "Anúncios no Google, redes sociais e eventos"
+  },
+  {
+    "id": 9,
+    "nome": "Impostos & Taxas Governamentais",
+    "tipo": "despesa",
+    "descricao": "ISS, PIS/COFINS, Simples Nacional"
+  },
+  {
+    "id": 10,
+    "nome": "Equipamentos & Ferramentas de TI",
+    "tipo": "despesa",
+    "descricao": "Aquisição de computadores, impressoras e periféricos"
+  }
+]

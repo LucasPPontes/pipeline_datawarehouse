@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nome": "Tecnologia da Informação & Engenharia",
+    "sigla": "TI",
+    "gestor_nome": "Ana Clara Silva",
+    "orcamento_anual": 450000.00
+  },
+  {
+    "id": 2,
+    "nome": "Financeiro & Contabilidade",
+    "sigla": "FIN",
+    "gestor_nome": "Carlos Eduardo Rocha",
+    "orcamento_anual": 220000.00
+  },
+  {
+    "id": 3,
+    "nome": "Recursos Humanos & Pessoas",
+    "sigla": "RH",
+    "gestor_nome": "Mariana Santos Oliveira",
+    "orcamento_anual": 180000.00
+  },
+  {
+    "id": 4,
+    "nome": "Atendimento & Sucesso do Cliente",
+    "sigla": "CS",
+    "gestor_nome": "Lucas Gabriel Ferreira",
+    "orcamento_anual": 200000.00
+  },
+  {
+    "id": 5,
+    "nome": "Jurídico & Compliance",
+    "sigla": "JUR",
+    "gestor_nome": "Juliana Lima Costa",
+    "orcamento_anual": 190000.00
+  },
+  {
+    "id": 6,
+    "nome": "Vendas & Desenvolvimento de Negócios",
+    "sigla": "VEN",
+    "gestor_nome": "Roberto Alencar",
+    "orcamento_anual": 350000.00
+  }
+]

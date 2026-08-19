@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "nome_contato": "Contato Suporte 01",
+    "empresa": "Tech Solutions Fictícia Ltda",
+    "email": "contato01@suporte-exemplo.com.br",
+    "telefone": "(00) 90000-0001",
+    "nivel_sla": "Enterprise Platinum (2h)"
+  },
+  {
+    "id": 2,
+    "nome_contato": "Contato Suporte 02",
+    "empresa": "Comércio Silva Fictício & Cia",
+    "email": "contato02@suporte-exemplo.com.br",
+    "telefone": "(00) 90000-0002",
+    "nivel_sla": "Gold (4h)"
+  },
+  {
+    "id": 3,
+    "nome_contato": "Contato Suporte 03",
+    "empresa": "Indústria Metalúrgica Ramos Fictícia",
+    "email": "contato03@suporte-exemplo.com.br",
+    "telefone": "(00) 90000-0003",
+    "nivel_sla": "Silver (8h)"
+  },
+  {
+    "id": 4,
+    "nome_contato": "Contato Suporte 04",
+    "empresa": "Padaria Central Exemplo",
+    "email": "contato04@suporte-exemplo.com.br",
+    "telefone": "(00) 90000-0004",
+    "nivel_sla": "Standard (24h)"
+  },
+  {
+    "id": 5,
+    "nome_contato": "Contato Suporte 05",
+    "empresa": "Logística Veloz Simulada",
+    "email": "contato05@suporte-exemplo.com.br",
+    "telefone": "(00) 90000-0005",
+    "nivel_sla": "Enterprise Platinum (2h)"
+  },
+  {
+    "id": 6,
+    "nome_contato": "Contato Suporte 06",
+    "empresa": "Farmácia Vida Modelo",
+    "email": "contato06@suporte-exemplo.com.br",
+    "telefone": "(00) 90000-0006",
+    "nivel_sla": "Gold (4h)"
+  },
+  {
+    "id": 7,
+    "nome_contato": "Contato Suporte 07",
+    "empresa": "Escola Futuro Teste",
+    "email": "contato07@suporte-exemplo.com.br",
+    "telefone": "(00) 90000-0007",
+    "nivel_sla": "Silver (8h)"
+  },
+  {
+    "id": 8,
+    "nome_contato": "Contato Suporte 08",
+    "empresa": "Construtora Horizonte Fictícia",
+    "email": "contato08@suporte-exemplo.com.br",
+    "telefone": "(00) 90000-0008",
+    "nivel_sla": "Enterprise Platinum (2h)"
+  }
+]

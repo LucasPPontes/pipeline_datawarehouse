@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nome_ativo": "Servidor Principal de Banco de Dados (DB-01)",
+    "tipo": "servidor",
+    "status": "ativo",
+    "localizacao": "Datacenter AWS sa-east-1"
+  },
+  {
+    "id": 2,
+    "nome_ativo": "Switch Core 48 Portas Gigabit",
+    "tipo": "rede",
+    "status": "ativo",
+    "localizacao": "Rack 01 - Sede Principal"
+  },
+  {
+    "id": 3,
+    "nome_ativo": "Notebook Dell Latitude 5420 - Dev 01",
+    "tipo": "hardware",
+    "status": "ativo",
+    "localizacao": "Home Office - Ana Clara"
+  },
+  {
+    "id": 4,
+    "nome_ativo": "Licença Kubernetes Enterprise Cluster",
+    "tipo": "software",
+    "status": "ativo",
+    "localizacao": "Nuvem Privada"
+  },
+  {
+    "id": 5,
+    "nome_ativo": "Nobreak 10kVA - Sala de Servidores",
+    "tipo": "hardware",
+    "status": "manutencao",
+    "localizacao": "Sede Principal - Sala de TI"
+  }
+]

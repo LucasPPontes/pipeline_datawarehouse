@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "codigo_patrimonio": "PAT-2023-001",
+    "nome": "Notebook Dell Latitude 5420 - Dev Lead",
+    "tipo": "notebook",
+    "marca_modelo": "Dell Latitude 5420 i7 16GB",
+    "status": "em_uso",
+    "localizacao": "Home Office - Ana Clara"
+  },
+  {
+    "id": 2,
+    "codigo_patrimonio": "PAT-2023-002",
+    "nome": "Notebook Dell Vostro 3510 - Financ",
+    "tipo": "notebook",
+    "marca_modelo": "Dell Vostro 3510 i5 8GB",
+    "status": "em_uso",
+    "localizacao": "Sede - Financeiro"
+  },
+  {
+    "id": 3,
+    "codigo_patrimonio": "PAT-2023-003",
+    "nome": "Monitor LG Ultrawide 29'' IPS",
+    "tipo": "monitor",
+    "marca_modelo": "LG 29WK600-W",
+    "status": "em_uso",
+    "localizacao": "Sede - TI"
+  },
+  {
+    "id": 4,
+    "codigo_patrimonio": "PAT-2023-004",
+    "nome": "Switch Core 48 Portas Gigabit",
+    "tipo": "rede",
+    "marca_modelo": "Cisco Catalyst 2960-X",
+    "status": "em_uso",
+    "localizacao": "Rack 01 - Sala de Servidores"
+  },
+  {
+    "id": 5,
+    "codigo_patrimonio": "PAT-2023-005",
+    "nome": "Nobreak Senoidal 10kVA",
+    "tipo": "energia",
+    "marca_modelo": "APC Smart-UPS RT 10000",
+    "status": "manutencao",
+    "localizacao": "Sala de Servidores"
+  },
+  {
+    "id": 6,
+    "codigo_patrimonio": "PAT-2023-006",
+    "nome": "Firewall de Rede Corporativo",
+    "tipo": "rede",
+    "marca_modelo": "Fortinet FortiGate 60F",
+    "status": "em_uso",
+    "localizacao": "Rack 01 - Sede"
+  },
+  {
+    "id": 7,
+    "codigo_patrimonio": "PAT-2024-007",
+    "nome": "MacBook Pro 14 M2 Pro - Designer",
+    "tipo": "notebook",
+    "marca_modelo": "Apple MacBook Pro M2 16GB",
+    "status": "em_uso",
+    "localizacao": "Sede - Marketing"
+  },
+  {
+    "id": 8,
+    "codigo_patrimonio": "PAT-2024-008",
+    "nome": "Impressora Laser Multifuncional Kyocera",
+    "tipo": "impressora",
+    "marca_modelo": "Kyocera ECOSYS M3655idn",
+    "status": "em_uso",
+    "localizacao": "Sede - Recepção"
+  },
+  {
+    "id": 9,
+    "codigo_patrimonio": "PAT-2024-009",
+    "nome": "Desktop Workstation i9 32GB - Dev 02",
+    "tipo": "desktop",
+    "marca_modelo": "Lenovo ThinkCentre M90t",
+    "status": "disponivel",
+    "localizacao": "Estoque de TI"
+  },
+  {
+    "id": 10,
+    "codigo_patrimonio": "PAT-2024-010",
+    "nome": "Access Point Wi-Fi 6 Mesh",
+    "tipo": "rede",
+    "marca_modelo": "Ubiquiti UniFi AP 6 Pro",
+    "status": "em_uso",
+    "localizacao": "Sede - Corredor Central"
+  }
+]

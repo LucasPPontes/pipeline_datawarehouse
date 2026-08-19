@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "titulo": "Alvará de Funcionamento Sede",
+    "tipo_documento": "alvara",
+    "orgao_emissor": "Prefeitura Municipal de São Paulo",
+    "data_emissao": "2023-01-05",
+    "data_validade": "2028-01-05",
+    "status": "valido"
+  },
+  {
+    "id": 2,
+    "titulo": "Auto de Vistoria do Corpo de Bombeiros (AVCB)",
+    "tipo_documento": "licenca_bombeiros",
+    "orgao_emissor": "Corpo de Bombeiros da PMESP",
+    "data_emissao": "2023-03-10",
+    "data_validade": "2026-03-10",
+    "status": "valido"
+  },
+  {
+    "id": 3,
+    "titulo": "Certidão Negativa de Débitos Federais (CND)",
+    "tipo_documento": "certidao",
+    "orgao_emissor": "Receita Federal do Brasil",
+    "data_emissao": "2024-01-15",
+    "data_validade": "2024-07-15",
+    "status": "valido"
+  },
+  {
+    "id": 4,
+    "titulo": "Certificado de Regularidade do FGTS (CRF)",
+    "tipo_documento": "certidao",
+    "orgao_emissor": "Caixa Econômica Federal",
+    "data_emissao": "2024-02-01",
+    "data_validade": "2024-03-02",
+    "status": "renovacao_pendente"
+  },
+  {
+    "id": 5,
+    "titulo": "Registro de Marca 'MiniERP' no INPI",
+    "tipo_documento": "propriedade_intelectual",
+    "orgao_emissor": "INPI",
+    "data_emissao": "2022-08-20",
+    "data_validade": "2032-08-20",
+    "status": "valido"
+  },
+  {
+    "id": 6,
+    "titulo": "Licença Ambiental Simplificada (LAS)",
+    "tipo_documento": "licenca_ambiental",
+    "orgao_emissor": "CETESB",
+    "data_emissao": "2021-05-12",
+    "data_validade": "2024-05-12",
+    "status": "valido"
+  },
+  {
+    "id": 7,
+    "titulo": "Certidão Negativa de Débitos Trabalhistas (CNDT)",
+    "tipo_documento": "certidao",
+    "orgao_emissor": "Tribunal Superior do Trabalho",
+    "data_emissao": "2024-01-10",
+    "data_validade": "2024-07-10",
+    "status": "valido"
+  },
+  {
+    "id": 8,
+    "titulo": "Inscrição Municipal - Prestador de Serviços",
+    "tipo_documento": "inscricao_municipal",
+    "orgao_emissor": "Secretaria das Finanças",
+    "data_emissao": "2020-02-01",
+    "data_validade": null,
+    "status": "valido"
+  }
+]

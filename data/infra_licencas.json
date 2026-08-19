@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nome_software": "Microsoft 365 Business Standard",
+    "chave_licenca": "MS365-5544-3322-1100",
+    "fornecedor": "Microsoft Corporation",
+    "quantidade_licencas": 25,
+    "data_expiracao": "2025-01-31",
+    "valor_anual": 15000.00
+  },
+  {
+    "id": 2,
+    "nome_software": "Google Workspace Business Starter",
+    "chave_licenca": "GW-9988-7766-5544",
+    "fornecedor": "Google LLC",
+    "quantidade_licencas": 30,
+    "data_expiracao": "2025-03-15",
+    "valor_anual": 12600.00
+  },
+  {
+    "id": 3,
+    "nome_software": "JetBrains All Products Pack (Dev Team)",
+    "chave_licenca": "JB-DEV-8822-1002",
+    "fornecedor": "JetBrains s.r.o.",
+    "quantidade_licencas": 5,
+    "data_expiracao": "2024-11-30",
+    "valor_anual": 7500.00
+  },
+  {
+    "id": 4,
+    "nome_software": "Antivírus Kaspersky Endpoint Security",
+    "chave_licenca": "KASP-CORP-4455-6677",
+    "fornecedor": "Kaspersky Lab",
+    "quantidade_licencas": 35,
+    "data_expiracao": "2024-09-01",
+    "valor_anual": 4200.00
+  },
+  {
+    "id": 5,
+    "nome_software": "GitHub Team Subscription",
+    "chave_licenca": "GH-ORG-MINIERP-01",
+    "fornecedor": "GitHub Inc / Microsoft",
+    "quantidade_licencas": 10,
+    "data_expiracao": "2025-02-28",
+    "valor_anual": 2400.00
+  },
+  {
+    "id": 6,
+    "nome_software": "Adobe Creative Cloud All Apps",
+    "chave_licenca": "ADOBE-CC-9900-1122",
+    "fornecedor": "Adobe Systems",
+    "quantidade_licencas": 2,
+    "data_expiracao": "2024-12-15",
+    "valor_anual": 5800.00
+  },
+  {
+    "id": 7,
+    "nome_software": "Slack Pro Plan",
+    "chave_licenca": "SLACK-TEAM-5511-99",
+    "fornecedor": "Salesforce / Slack",
+    "quantidade_licencas": 30,
+    "data_expiracao": "2025-04-01",
+    "valor_anual": 9600.00
+  },
+  {
+    "id": 8,
+    "nome_software": "Fortinet FortiCare 24x7 Support",
+    "chave_licenca": "FORTI-60F-SUPP-2024",
+    "fornecedor": "Fortinet Inc",
+    "quantidade_licencas": 1,
+    "data_expiracao": "2025-06-30",
+    "valor_anual": 3800.00
+  }
+]

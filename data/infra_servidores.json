@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nome_host": "db-primary-postgresql-01",
+    "endereco_ip": "10.0.1.15",
+    "sistema_operacional": "Ubuntu Linux 22.04 LTS",
+    "provedor": "AWS sa-east-1",
+    "status_operacional": "online"
+  },
+  {
+    "id": 2,
+    "nome_host": "db-replica-read-02",
+    "endereco_ip": "10.0.1.16",
+    "sistema_operacional": "Ubuntu Linux 22.04 LTS",
+    "provedor": "AWS sa-east-1",
+    "status_operacional": "online"
+  },
+  {
+    "id": 3,
+    "nome_host": "api-gateway-k8s-master",
+    "endereco_ip": "10.0.2.100",
+    "sistema_operacional": "Debian 12 Bookworm",
+    "provedor": "AWS sa-east-1",
+    "status_operacional": "online"
+  },
+  {
+    "id": 4,
+    "nome_host": "srv-internal-active-directory",
+    "endereco_ip": "192.168.1.5",
+    "sistema_operacional": "Windows Server 2022",
+    "provedor": "Servidor Físico Local",
+    "status_operacional": "online"
+  },
+  {
+    "id": 5,
+    "nome_host": "srv-backup-nas-synology",
+    "endereco_ip": "192.168.1.200",
+    "sistema_operacional": "Synology DSM 7.2",
+    "provedor": "Servidor Físico Local",
+    "status_operacional": "online"
+  },
+  {
+    "id": 6,
+    "nome_host": "staging-environment-node-01",
+    "endereco_ip": "10.0.3.50",
+    "sistema_operacional": "Alpine Linux 3.19",
+    "provedor": "Google Cloud Platform",
+    "status_operacional": "manutencao"
+  }
+]

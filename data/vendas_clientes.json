@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "nome": "Tech Solutions Fictícia Ltda",
+    "cnpj_cpf": "00.000.000/0001-91",
+    "email": "contato@techsolutions-ficticia.com.br",
+    "telefone": "(11) 90000-0001",
+    "segmento": "Tecnologia",
+    "data_cadastro": "2023-01-10"
+  },
+  {
+    "id": 2,
+    "nome": "Comércio Silva Fictício & Cia",
+    "cnpj_cpf": "00.000.000/0002-82",
+    "email": "vendas@silva-ficticio.com.br",
+    "telefone": "(11) 90000-0002",
+    "segmento": "Varejo",
+    "data_cadastro": "2023-02-15"
+  },
+  {
+    "id": 3,
+    "nome": "Indústria Metalúrgica Ramos Fictícia",
+    "cnpj_cpf": "00.000.000/0003-73",
+    "email": "compras@metalurgica-ramos-fake.com.br",
+    "telefone": "(11) 90000-0003",
+    "segmento": "Indústria",
+    "data_cadastro": "2023-03-20"
+  },
+  {
+    "id": 4,
+    "nome": "Padaria Central Exemplo",
+    "cnpj_cpf": "00.000.000/0004-64",
+    "email": "adm@padariacentral-exemplo.com.br",
+    "telefone": "(11) 90000-0004",
+    "segmento": "Alimentação",
+    "data_cadastro": "2023-04-05"
+  },
+  {
+    "id": 5,
+    "nome": "Logística Veloz Simulada",
+    "cnpj_cpf": "00.000.000/0005-55",
+    "email": "operacoes@logistica-simulada.com.br",
+    "telefone": "(11) 90000-0005",
+    "segmento": "Logística",
+    "data_cadastro": "2023-05-12"
+  },
+  {
+    "id": 6,
+    "nome": "Farmácia Vida Modelo",
+    "cnpj_cpf": "00.000.000/0006-46",
+    "email": "contato@farmacia-modelo.com.br",
+    "telefone": "(11) 90000-0006",
+    "segmento": "Saúde",
+    "data_cadastro": "2023-06-18"
+  },
+  {
+    "id": 7,
+    "nome": "Escola Futuro Teste",
+    "cnpj_cpf": "00.000.000/0007-37",
+    "email": "financeiro@escola-teste.edu.br",
+    "telefone": "(11) 90000-0007",
+    "segmento": "Educação",
+    "data_cadastro": "2023-07-22"
+  },
+  {
+    "id": 8,
+    "nome": "Construtora Horizonte Fictícia",
+    "cnpj_cpf": "00.000.000/0008-28",
+    "email": "obras@horizonte-ficticio.com.br",
+    "telefone": "(11) 90000-0008",
+    "segmento": "Construção Civil",
+    "data_cadastro": "2023-08-30"
+  },
+  {
+    "id": 9,
+    "nome": "Consultoria Alfa Fictícia",
+    "cnpj_cpf": "00.000.000/0009-19",
+    "email": "contato@alfa-ficticia.com.br",
+    "telefone": "(11) 90000-0009",
+    "segmento": "Consultoria",
+    "data_cadastro": "2023-09-14"
+  },
+  {
+    "id": 10,
+    "nome": "Restaurante Sabor Demo",
+    "cnpj_cpf": "00.000.000/0010-00",
+    "email": "gerencia@sabor-demo.com.br",
+    "telefone": "(11) 90000-0010",
+    "segmento": "Alimentação",
+    "data_cadastro": "2023-10-01"
+  }
+]

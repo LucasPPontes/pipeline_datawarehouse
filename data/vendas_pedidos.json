@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "cliente_id": 1,
+    "cliente_nome": "Tech Solutions Ltda",
+    "data_venda": "2024-01-10",
+    "valor_total": 27500.00,
+    "status": "concluido",
+    "canal_venda": "Venda Direta",
+    "vendedor_id": 1
+  },
+  {
+    "id": 2,
+    "cliente_id": 2,
+    "cliente_nome": "Comércio Silva & Cia",
+    "data_venda": "2024-01-18",
+    "valor_total": 8390.00,
+    "status": "concluido",
+    "canal_venda": "Inbound",
+    "vendedor_id": 1
+  },
+  {
+    "id": 3,
+    "cliente_id": 3,
+    "cliente_nome": "Indústria Metalúrgica Ramos",
+    "data_venda": "2024-02-02",
+    "valor_total": 15000.00,
+    "status": "pendente",
+    "canal_venda": "Parceiro",
+    "vendedor_id": 2
+  },
+  {
+    "id": 4,
+    "cliente_id": 4,
+    "cliente_nome": "Padaria e Confeitaria Central",
+    "data_venda": "2024-02-14",
+    "valor_total": 3800.00,
+    "status": "cancelado",
+    "canal_venda": "Website",
+    "vendedor_id": 2
+  },
+  {
+    "id": 5,
+    "cliente_id": 5,
+    "cliente_nome": "Logística & Transportes Veloz",
+    "data_venda": "2024-02-20",
+    "valor_total": 31500.00,
+    "status": "concluido",
+    "canal_venda": "Venda Direta",
+    "vendedor_id": 1
+  },
+  {
+    "id": 6,
+    "cliente_id": 6,
+    "cliente_nome": "Farmácia Vida Saudável",
+    "data_venda": "2024-03-01",
+    "valor_total": 5140.00,
+    "status": "concluido",
+    "canal_venda": "Inbound",
+    "vendedor_id": 2
+  },
+  {
+    "id": 7,
+    "cliente_id": 7,
+    "cliente_nome": "Escola Futuro Brilhante",
+    "data_venda": "2024-03-05",
+    "valor_total": 12000.00,
+    "status": "pendente",
+    "canal_venda": "Venda Direta",
+    "vendedor_id": 1
+  },
+  {
+    "id": 8,
+    "cliente_id": 8,
+    "cliente_nome": "Construtora Horizonte",
+    "data_venda": "2024-03-12",
+    "valor_total": 29000.00,
+    "status": "concluido",
+    "canal_venda": "Parceiro",
+    "vendedor_id": 2
+  },
+  {
+    "id": 9,
+    "cliente_id": 9,
+    "cliente_nome": "Consultoria Alfa Partners",
+    "data_venda": "2024-03-22",
+    "valor_total": 7000.00,
+    "status": "concluido",
+    "canal_venda": "Website",
+    "vendedor_id": 1
+  },
+  {
+    "id": 10,
+    "cliente_id": 10,
+    "cliente_nome": "Restaurante Sabor & Arte",
+    "data_venda": "2024-04-02",
+    "valor_total": 5690.00,
+    "status": "pendente",
+    "canal_venda": "Inbound",
+    "vendedor_id": 2
+  }
+]

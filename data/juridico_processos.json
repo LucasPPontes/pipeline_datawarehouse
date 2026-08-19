@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "numero_processo": "1",
+    "tribunal": "TJSP - Tribunal de Justiça de São Paulo",
+    "parte_contraria": "Ex-Fornecedor Serviços Web",
+    "valor_causa": 15000.00,
+    "status_processo": "em_andamento",
+    "data_abertura": "2023-06-15"
+  },
+  {
+    "id": 2,
+    "numero_processo": "2",
+    "tribunal": "TRT-2 - Tribunal Regional do Trabalho",
+    "parte_contraria": "Ex-Colaborador João Pedro",
+    "valor_causa": 35000.00,
+    "status_processo": "acordo_realizado",
+    "data_abertura": "2022-11-10"
+  },
+  {
+    "id": 3,
+    "numero_processo": "3",
+    "tribunal": "TRF-3 - Justiça Federal",
+    "parte_contraria": "União Federal (RFB)",
+    "valor_causa": 8500.00,
+    "status_processo": "aguardando_pericia",
+    "data_abertura": "2023-09-20"
+  },
+  {
+    "id": 4,
+    "numero_processo": "4",
+    "tribunal": "Juizado Especial Cível",
+    "parte_contraria": "Cliente Reclamante S.A.",
+    "valor_causa": 4200.00,
+    "status_processo": "improcedente",
+    "data_abertura": "2024-01-18"
+  },
+  {
+    "id": 5,
+    "numero_processo": "5",
+    "tribunal": "TJSP - 2ª Vara Cível",
+    "parte_contraria": "Construtora Antiga Ltda",
+    "valor_causa": 60000.00,
+    "status_processo": "em_andamento",
+    "data_abertura": "2023-04-05"
+  },
+  {
+    "id": 6,
+    "numero_processo": "6",
+    "tribunal": "TRT-2 - 45ª Vara do Trabalho",
+    "parte_contraria": "Ex-Estagiário Lucas M.",
+    "valor_causa": 12000.00,
+    "status_processo": "arquivado",
+    "data_abertura": "2023-08-12"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "departamento_id": 1,
+    "nome": "Funcionário Teste 01",
+    "cpf": "000.000.000-01",
+    "cargo": "Tech Lead / Desenvolvedor Senior",
+    "salario": 11500.00,
+    "data_admissao": "2023-01-15",
+    "email": "func01@empresa-exemplo.com.br",
+    "status": "ativo"
+  },
+  {
+    "id": 2,
+    "departamento_id": 2,
+    "nome": "Funcionário Teste 02",
+    "cpf": "000.000.000-02",
+    "cargo": "Coordenador Financeiro",
+    "salario": 6800.00,
+    "data_admissao": "2022-06-10",
+    "email": "func02@empresa-exemplo.com.br",
+    "status": "ativo"
+  },
+  {
+    "id": 3,
+    "departamento_id": 3,
+    "nome": "Funcionário Teste 03",
+    "cpf": "000.000.000-03",
+    "cargo": "Gerente de Recursos Humanos",
+    "salario": 9800.00,
+    "data_admissao": "2021-03-01",
+    "email": "func03@empresa-exemplo.com.br",
+    "status": "ativo"
+  },
+  {
+    "id": 4,
+    "departamento_id": 4,
+    "nome": "Funcionário Teste 04",
+    "cpf": "000.000.000-04",
+    "cargo": "Supervisor de Suporte",
+    "salario": 5200.00,
+    "data_admissao": "2023-11-20",
+    "email": "func04@empresa-exemplo.com.br",
+    "status": "ativo"
+  },
+  {
+    "id": 5,
+    "departamento_id": 5,
+    "nome": "Funcionário Teste 05",
+    "cpf": "000.000.000-05",
+    "cargo": "Advogado Corporativo Senior",
+    "salario": 9500.00,
+    "data_admissao": "2022-09-05",
+    "email": "func05@empresa-exemplo.com.br",
+    "status": "ativo"
+  },
+  {
+    "id": 6,
+    "departamento_id": 6,
+    "nome": "Funcionário Teste 06",
+    "cpf": "000.000.000-06",
+    "cargo": "Gerente Comercial",
+    "salario": 10500.00,
+    "data_admissao": "2022-01-10",
+    "email": "func06@empresa-exemplo.com.br",
+    "status": "ativo"
+  },
+  {
+    "id": 7,
+    "departamento_id": 1,
+    "nome": "Funcionário Teste 07",
+    "cpf": "000.000.000-07",
+    "cargo": "Desenvolvedor Backend Pleno",
+    "salario": 7200.00,
+    "data_admissao": "2023-05-15",
+    "email": "func07@empresa-exemplo.com.br",
+    "status": "ativo"
+  },
+  {
+    "id": 8,
+    "departamento_id": 4,
+    "nome": "Funcionário Teste 08",
+    "cpf": "000.000.000-08",
+    "cargo": "Analista de Atendimento N2",
+    "salario": 3800.00,
+    "data_admissao": "2024-01-08",
+    "email": "func08@empresa-exemplo.com.br",
+    "status": "ativo"
+  },
+  {
+    "id": 9,
+    "departamento_id": 6,
+    "nome": "Funcionário Teste 09",
+    "cpf": "000.000.000-09",
+    "cargo": "Executivo de Contas Senior",
+    "salario": 8000.00,
+    "data_admissao": "2023-08-01",
+    "email": "func09@empresa-exemplo.com.br",
+    "status": "ativo"
+  },
+  {
+    "id": 10,
+    "departamento_id": 3,
+    "nome": "Funcionário Teste 10",
+    "cpf": "000.000.000-10",
+    "cargo": "Analista de DDP & Benefícios",
+    "salario": 4600.00,
+    "data_admissao": "2023-10-10",
+    "email": "func10@empresa-exemplo.com.br",
+    "status": "ativo"
+  }
+]

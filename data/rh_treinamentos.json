@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "titulo": "Arquitetura FastAPI e Microserviços Python",
+    "carga_horaria": 40,
+    "instrutor": "Dr. Marcelo Ramos",
+    "data_inicio": "2024-02-15",
+    "status": "concluido"
+  },
+  {
+    "id": 2,
+    "titulo": "LGPD e Segurança da Informação no ERP",
+    "carga_horaria": 16,
+    "instrutor": "Dra. Juliana Costa",
+    "data_inicio": "2024-03-01",
+    "status": "concluido"
+  },
+  {
+    "id": 3,
+    "titulo": "Técnicas Avançadas de Negociação B2B",
+    "carga_horaria": 24,
+    "instrutor": "Roberto Alencar",
+    "data_inicio": "2024-03-20",
+    "status": "em_andamento"
+  },
+  {
+    "id": 4,
+    "titulo": "Excel Avançado e Power BI para Finanças",
+    "carga_horaria": 32,
+    "instrutor": "Carlos Rocha",
+    "data_inicio": "2024-04-10",
+    "status": "agendado"
+  },
+  {
+    "id": 5,
+    "titulo": "Excelência no Atendimento ao Cliente (CSAT)",
+    "carga_horaria": 20,
+    "instrutor": "Lucas Ferreira",
+    "data_inicio": "2024-01-22",
+    "status": "concluido"
+  },
+  {
+    "id": 6,
+    "titulo": "DevOps & Gerenciamento de Kubernetes",
+    "carga_horaria": 48,
+    "instrutor": "Tech Cloud Academy",
+    "data_inicio": "2024-05-05",
+    "status": "agendado"
+  }
+]

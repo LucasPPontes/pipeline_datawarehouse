@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "pedido_id": 1,
+    "produto_id": 1,
+    "produto_nome": "Licença ERP Anual",
+    "quantidade": 1,
+    "preco_unitario": 24000.00,
+    "subtotal": 24000.00
+  },
+  {
+    "id": 2,
+    "pedido_id": 1,
+    "produto_id": 2,
+    "produto_nome": "Módulo Fiscal Adicional",
+    "quantidade": 1,
+    "preco_unitario": 3500.00,
+    "subtotal": 3500.00
+  },
+  {
+    "id": 3,
+    "pedido_id": 2,
+    "produto_id": 9,
+    "produto_nome": "Migração de Banco de Dados",
+    "quantidade": 1,
+    "preco_unitario": 7500.00,
+    "subtotal": 7500.00
+  },
+  {
+    "id": 4,
+    "pedido_id": 2,
+    "produto_id": 7,
+    "produto_nome": "Impressora Térmica Não Fiscal",
+    "quantidade": 1,
+    "preco_unitario": 890.00,
+    "subtotal": 890.00
+  },
+  {
+    "id": 5,
+    "pedido_id": 3,
+    "produto_id": 4,
+    "produto_nome": "Suporte Técnico Premium (Mês)",
+    "quantidade": 12,
+    "preco_unitario": 1250.00,
+    "subtotal": 15000.00
+  },
+  {
+    "id": 6,
+    "pedido_id": 4,
+    "produto_id": 5,
+    "produto_nome": "Módulo de PDV e Estoque",
+    "quantidade": 1,
+    "preco_unitario": 3800.00,
+    "subtotal": 3800.00
+  },
+  {
+    "id": 7,
+    "pedido_id": 5,
+    "produto_id": 1,
+    "produto_nome": "Licença ERP Anual",
+    "quantidade": 1,
+    "preco_unitario": 24000.00,
+    "subtotal": 24000.00
+  },
+  {
+    "id": 8,
+    "pedido_id": 5,
+    "produto_id": 9,
+    "produto_nome": "Migração de Banco de Dados",
+    "quantidade": 1,
+    "preco_unitario": 7500.00,
+    "subtotal": 7500.00
+  },
+  {
+    "id": 9,
+    "pedido_id": 6,
+    "produto_id": 5,
+    "produto_nome": "Módulo de PDV e Estoque",
+    "quantidade": 1,
+    "preco_unitario": 3800.00,
+    "subtotal": 3800.00
+  },
+  {
+    "id": 10,
+    "pedido_id": 6,
+    "produto_id": 6,
+    "produto_nome": "Leitor de Código de Barras Laser",
+    "quantidade": 3,
+    "preco_unitario": 446.66,
+    "subtotal": 1340.00
+  },
+  {
+    "id": 11,
+    "pedido_id": 7,
+    "produto_id": 8,
+    "produto_nome": "Treinamento Operacional (Turma)",
+    "quantidade": 6,
+    "preco_unitario": 2000.00,
+    "subtotal": 12000.00
+  },
+  {
+    "id": 12,
+    "pedido_id": 8,
+    "produto_id": 1,
+    "produto_nome": "Licença ERP Anual",
+    "quantidade": 1,
+    "preco_unitario": 24000.00,
+    "subtotal": 24000.00
+  }
+]

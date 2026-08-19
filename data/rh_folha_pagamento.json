@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "funcionario_id": 1,
+    "mes_referencia": 2,
+    "ano_referencia": 2024,
+    "salario_bruto": 11500.00,
+    "descontos": 2875.00,
+    "salario_liquido": 8625.00,
+    "status_pagamento": "pago"
+  },
+  {
+    "id": 2,
+    "funcionario_id": 2,
+    "mes_referencia": 2,
+    "ano_referencia": 2024,
+    "salario_bruto": 6800.00,
+    "descontos": 1496.00,
+    "salario_liquido": 5304.00,
+    "status_pagamento": "pago"
+  },
+  {
+    "id": 3,
+    "funcionario_id": 3,
+    "mes_referencia": 2,
+    "ano_referencia": 2024,
+    "salario_bruto": 9800.00,
+    "descontos": 2352.00,
+    "salario_liquido": 7448.00,
+    "status_pagamento": "pago"
+  },
+  {
+    "id": 4,
+    "funcionario_id": 4,
+    "mes_referencia": 2,
+    "ano_referencia": 2024,
+    "salario_bruto": 5200.00,
+    "descontos": 1040.00,
+    "salario_liquido": 4160.00,
+    "status_pagamento": "pago"
+  },
+  {
+    "id": 5,
+    "funcionario_id": 5,
+    "mes_referencia": 2,
+    "ano_referencia": 2024,
+    "salario_bruto": 9500.00,
+    "descontos": 2280.00,
+    "salario_liquido": 7220.00,
+    "status_pagamento": "pago"
+  },
+  {
+    "id": 6,
+    "funcionario_id": 6,
+    "mes_referencia": 2,
+    "ano_referencia": 2024,
+    "salario_bruto": 10500.00,
+    "descontos": 2520.00,
+    "salario_liquido": 7980.00,
+    "status_pagamento": "pago"
+  },
+  {
+    "id": 7,
+    "funcionario_id": 7,
+    "mes_referencia": 2,
+    "ano_referencia": 2024,
+    "salario_bruto": 7200.00,
+    "descontos": 1584.00,
+    "salario_liquido": 5616.00,
+    "status_pagamento": "pago"
+  },
+  {
+    "id": 8,
+    "funcionario_id": 8,
+    "mes_referencia": 2,
+    "ano_referencia": 2024,
+    "salario_bruto": 3800.00,
+    "descontos": 684.00,
+    "salario_liquido": 3116.00,
+    "status_pagamento": "pago"
+  },
+  {
+    "id": 9,
+    "funcionario_id": 9,
+    "mes_referencia": 2,
+    "ano_referencia": 2024,
+    "salario_bruto": 8000.00,
+    "descontos": 1840.00,
+    "salario_liquido": 6160.00,
+    "status_pagamento": "pago"
+  },
+  {
+    "id": 10,
+    "funcionario_id": 10,
+    "mes_referencia": 2,
+    "ano_referencia": 2024,
+    "salario_bruto": 4600.00,
+    "descontos": 874.00,
+    "salario_liquido": 3726.00,
+    "status_pagamento": "pago"
+  }
+]

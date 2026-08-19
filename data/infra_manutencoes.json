@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "equipamento_id": 5,
+    "tipo_manutencao": "corretiva",
+    "descricao": "Substituição do conjunto de baterias seladas de 12V do Nobreak 10kVA",
+    "custo": 2800.00,
+    "data_manutencao": "2024-02-05",
+    "responsavel": "Técnica Energtic Soluções"
+  },
+  {
+    "id": 2,
+    "equipamento_id": 1,
+    "tipo_manutencao": "preventiva",
+    "descricao": "Limpeza interna de coolers e troca de pasta térmica do Notebook Dev Lead",
+    "custo": 180.00,
+    "data_manutencao": "2024-01-20",
+    "responsavel": "Suporte Interno de TI"
+  },
+  {
+    "id": 3,
+    "equipamento_id": 4,
+    "tipo_manutencao": "preventiva",
+    "descricao": "Atualização de firmware do Switch Cisco para versão 15.2(7)E",
+    "custo": 0.00,
+    "data_manutencao": "2024-02-18",
+    "responsavel": "Analista de Redes"
+  },
+  {
+    "id": 4,
+    "equipamento_id": 8,
+    "tipo_manutencao": "corretiva",
+    "descricao": "Troca de unidade fusora da impressora Kyocera após 100k impressões",
+    "custo": 1200.00,
+    "data_manutencao": "2024-03-02",
+    "responsavel": "PrintMaster Manutenção"
+  },
+  {
+    "id": 5,
+    "equipamento_id": 6,
+    "tipo_manutencao": "preventiva",
+    "descricao": "Revisão das regras de firewall e backup de configurações do FortiGate",
+    "custo": 0.00,
+    "data_manutencao": "2024-03-15",
+    "responsavel": "Analista de Segurança"
+  },
+  {
+    "id": 6,
+    "equipamento_id": 2,
+    "tipo_manutencao": "corretiva",
+    "descricao": "Substituição de teclado do Notebook Vostro danificado por líquido",
+    "custo": 350.00,
+    "data_manutencao": "2024-03-25",
+    "responsavel": "Assistência Técnica Dell"
+  }
+]

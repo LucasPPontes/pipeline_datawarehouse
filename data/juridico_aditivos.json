@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "contrato_id": 1,
+    "titulo": "Aditivo 01 - Inclusão de Módulo Fiscal",
+    "descricao_alteracao": "Inclusão do módulo fiscal adicional e extensão do suporte em 6 meses",
+    "valor_adicional": 3500.00,
+    "data_assinatura": "2024-02-01"
+  },
+  {
+    "id": 2,
+    "contrato_id": 6,
+    "titulo": "Aditivo Reajuste Anual de Aluguel (IGPM)",
+    "descricao_alteracao": "Reajuste anual no valor do aluguel da sede de R$ 9.000 para R$ 9.500",
+    "valor_adicional": 500.00,
+    "data_assinatura": "2024-03-01"
+  },
+  {
+    "id": 3,
+    "contrato_id": 3,
+    "titulo": "Aditivo Promocional de Cargo e Salário",
+    "descricao_alteracao": "Promovida para Desenvolvedora Senior com reajuste salarial de 15%",
+    "valor_adicional": 1300.00,
+    "data_assinatura": "2024-01-15"
+  },
+  {
+    "id": 4,
+    "contrato_id": 7,
+    "titulo": "Aditivo de Expansão de Usuários",
+    "descricao_alteracao": "Adição de 10 licenças extras de usuários ao contrato de prestação de serviços",
+    "valor_adicional": 4000.00,
+    "data_assinatura": "2024-04-01"
+  },
+  {
+    "id": 5,
+    "contrato_id": 9,
+    "titulo": "Aditivo de Integração de API Customizada",
+    "descricao_alteracao": "Inclusão do escopo de integração com o sistema de rastreamento de frotas",
+    "valor_adicional": 5000.00,
+    "data_assinatura": "2024-03-10"
+  },
+  {
+    "id": 6,
+    "contrato_id": 10,
+    "titulo": "Aditivo de Consultoria Tributária",
+    "descricao_alteracao": "Inclusão de revisão fiscal trimestral pela contabilidade externa",
+    "valor_adicional": 2000.00,
+    "data_assinatura": "2024-02-15"
+  }
+]
