@@ -1,6 +1,17 @@
 # 🚀 Mini ERP Backend, Database Schemas & Apache Airflow Data Warehouse
 
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-3.3-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-7.2-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-OAuth2_&_RBAC-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-v2-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+
 > ⚠️ **Aviso Importante:** Todos os dados, métricas e informações contidos neste projeto são **100% fictícios**. Este repositório foi desenvolvido estritamente para uso pessoal, fins de estudo e composição de portfólio profissional.
+
 
 Sistema ERP corporativo completo para pequenas e médias empresas, integrando **API RESTful de Alta Performance (FastAPI)**, **Banco de Dados Relacional Multi-Schema (PostgreSQL)**, **Arquitetura de Segurança de Nível Corporativo (JWT + RBAC + Rate Limit + Audit)** e **Pipelines ETL/ELT e Data Warehouse (Apache Airflow 3.3)**.
 
@@ -15,7 +26,8 @@ Sistema ERP corporativo completo para pequenas e médias empresas, integrando **
                                            |
                                            v
                +-------------------------------------------------------+
-               |          API RESTFUL EM FASTAPI (Porta 8000)          |
+               |          API RESTFUL EM FASTAPI (Porta 8001)          |
+
                |  - Autenticação JWT (OAuth2) & Bcrypt                  |
                |  - Controle de Acesso por Setor (RBAC)                |
                |  - Slowapi Rate Limiting & OWASP Headers              |
@@ -55,24 +67,39 @@ Sistema ERP corporativo completo para pequenas e médias empresas, integrando **
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## ⚡ Configuração via Variáveis de Ambiente (`.env`)
 
-- **Linguagem**: Python 3.12
-- **Framework Web**: FastAPI (com Pydantic v2 & Uvicorn)
-- **Banco de Dados**: PostgreSQL 16 (Containerizado via Docker)
-- **ORM & Conexão**: SQLAlchemy & Psycopg2
-- **Orquestrador de Dados**: Apache Airflow 3.3.0 (com CeleryExecutor & Redis)
-- **Segurança**: PyJWT, Passlib (Bcrypt), Slowapi (Rate Limit)
+A porta da API e demais parâmetros do projeto são totalmente configuráveis através do arquivo [`.env`](file:///home/lucas/%C3%81rea%20de%20trabalho/database/.env) (baseado no modelo [`.env.example`](file:///home/lucas/%C3%81rea%20de%20trabalho/database/.env.example)):
+
+```env
+# Alterando a porta da API (Valor padrão: 8001)
+API_PORT=8001
+```
+
+A variável `API_PORT` é lida de forma transparente por:
+- **Docker Compose**: Mapeia `${API_PORT}:${API_PORT}` automaticamente.
+- **Python / FastAPI**: Lida pelo `python-dotenv` em [`app/config.py`](file:///home/lucas/%C3%81rea%20de%20trabalho/database/app/config.py).
 
 ---
 
-## 🔒 Arquitetura de Segurança
+## ⚡ Inicialização Unificada (Um Único Comando)
 
-1. **Autenticação JWT (`/auth/login`)**: Geração de tokens OAuth2 Bearer com validade de 12 horas e senhas criptografadas em `Bcrypt`.
-2. **Controle de Acesso por Função (RBAC)**: Restrição de rotas por setor. Ex: Usuários com papel `VENDAS` só acessam `/vendas/*`. Papel `ADMIN` possui acesso irrestrito.
-3. **Trilha de Auditoria (`seguranca.audit_logs`)**: Registro automático de eventos de escrita (`POST`), logins e alterações com e-mail, método, IP e timestamp.
-4. **Rate Limiting**: Proteção global de 100 requisições/minuto por IP contra força bruta.
-5. **Cabeçalhos OWASP**: Injeção de `X-Content-Type-Options`, `X-Frame-Options`, `X-XSS-Protection` e `Strict-Transport-Security`.
+
+Todo o ecossistema (PostgreSQL + API FastAPI + Carga Automática de Dados + Cluster Apache Airflow) é inicializado com um único comando:
+
+```bash
+docker compose up -d --build
+```
+
+---
+
+## 🌐 Endereços dos Serviços na Web
+
+- **Documentação Interativa da API (Swagger UI)**:
+  👉 **[http://localhost:8001/docs](http://localhost:8001/docs)** *(com suporte a Login via botão Authorize)*
+
+- **Painel do Apache Airflow Web UI**:
+  👉 **[http://localhost:8080](http://localhost:8080)** *(Usuário: `airflow` | Senha: `airflow`)*
 
 ---
 
@@ -108,6 +135,9 @@ O Apache Airflow executa 5 pipelines ETL para consolidar os dados brutos operaci
 
 ```
 .
+├── docker-compose.yaml         # Orquestração unificada de todo o ecossistema
+├── Dockerfile                  # Containerização da API FastAPI + Carga Automática (seed.py)
+├── .gitignore                  # Arquivo de exclusão do Git (ignora venv, env, logs)
 ├── app/                        # Código-fonte da API em FastAPI
 │   ├── models/                 # Modelos SQLAlchemy organizados por Schema do Postgres
 │   ├── schemas/                # Schemas Pydantic para validação de entrada/saída
@@ -118,55 +148,9 @@ O Apache Airflow executa 5 pipelines ETL para consolidar os dados brutos operaci
 │   ├── seed.py                 # Script de criação de Schemas e Carga Inicial (212 registros)
 │   └── main.py                 # Entrypoint da API FastAPI com Middlewares de Segurança
 ├── data/                       # 25 Arquivos JSON com dados fictícios anonimizados
-├── airflow/                    # Ambiente Docker do Apache Airflow 3.3
-│   ├── docker-compose.yaml     # Cluster Airflow (Webserver, Scheduler, Worker, Redis, Postgres)
+├── airflow/                    # Diretórios e DAGs do Apache Airflow
 │   └── dags/                   # DAGs em Python para ETL do Data Warehouse (dw)
-├── test_api.py                 # Suíte de testes automatizados da API REST (Auth, RBAC, Headers)
-├── test_dags_dw.py             # Script de execução e verificação do Data Warehouse (dw)
-└── verify_schemas.py           # Script de verificação da estrutura de Schemas do PostgreSQL
+├── test_api.py                 # Suíte de testes automatizados da API REST
+├── test_dags_dw.py             # Script de verificação do Data Warehouse (dw)
+└── verify_schemas.py           # Script de verificação dos Schemas do PostgreSQL
 ```
-
----
-
-## 🚀 Como Executar o Projeto Completo
-
-### 1. Iniciar o Banco de Dados PostgreSQL Operacional
-```bash
-docker compose up -d
-```
-
-### 2. Iniciar o Cluster do Apache Airflow
-```bash
-cd airflow
-docker compose up -d
-cd ..
-```
-
-### 3. Recriar Schemas e Popular Dados Operacionais
-```bash
-PYTHONPATH=. ./venv/bin/python app/seed.py
-```
-
-### 4. Executar as Pipelines ETL do Data Warehouse (`dw`)
-```bash
-PYTHONPATH=. ./venv/bin/python test_dags_dw.py
-```
-
-### 5. Executar os Testes Automatizados da API
-```bash
-PYTHONPATH=. ./venv/bin/python test_api.py
-```
-
-### 6. Iniciar o Servidor da API FastAPI
-```bash
-PYTHONPATH=. ./venv/bin/uvicorn app.main:app --reload --port 8000
-```
-
----
-
-## 🌐 Endereços dos Serviços na Web
-
-- **Documentação Interativa da API (Swagger UI)**:
-  👉 **[http://localhost:8000/docs](http://localhost:8000/docs)** *(com suporte a Login via botão Authorize)*
-- **Painel do Apache Airflow Web UI**:
-  👉 **[http://localhost:8080](http://localhost:8080)** *(Usuário: `airflow` | Senha: `airflow`)*
